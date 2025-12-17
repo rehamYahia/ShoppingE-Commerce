@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SplashTest" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+    </style>
+
+
+    <style name="Theme.MyApp.Splash" parent="Base.Theme.SplashTest">
+        <item name="android:windowBackground">@drawable/launch_window_background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+<!--        <item name="postSplashScreenTheme">-->
+<!--            @style/Base.Theme.SplashTest-->
+<!--        </item>-->
+
+    </style>
+
+</resources>
+
+
+
+    <!--    version 31-->
+<!--<style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">-->
+
+<!--&lt;!&ndash; خلفية Splash &ndash;&gt;-->
+<!--<item name="windowSplashScreenBackground">@color/primary</item>-->
+
+<!--&lt;!&ndash; أيقونة متحركة &ndash;&gt;-->
+<!--<item name="windowSplashScreenAnimatedIcon">-->
+<!--    @drawable/avd_splash_icon-->
+<!--</item>-->
+
+<!--&lt;!&ndash; الثيم بعد الانتهاء &ndash;&gt;-->
+<!--<item name="postSplashScreenTheme">-->
+<!--    @style/Base.Theme.SplashTest-->
+<!--</item>-->
+
+<!--</style>-->
